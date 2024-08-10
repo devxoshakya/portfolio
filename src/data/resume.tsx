@@ -250,7 +250,7 @@ export const DATA = {
       dates: "April 22nd, 2024",
       location: "Meerut, Uttar Pradesh",
       description:
-        "Developed a Web Application which allows users to share thier screen and do watch parties with others.",
+        "Developed a Responsive Web Application which allows users to find and book appointments with doctors ",
       image: "/hackfest.png",
       links: [
         {
