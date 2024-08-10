@@ -8,6 +8,7 @@ import { Badge } from "@/components/ui/badge";
 import { DATA } from "@/data/resume";
 import Link from "next/link";
 import Markdown from "react-markdown";
+import { Analytics } from "@vercel/analytics/react"
 
 const BLUR_FADE_DELAY = 0.04;
 
