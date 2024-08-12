@@ -258,9 +258,8 @@ The backend will expose several RESTful APIs to interact with the frontend. Thes
          const user = await User.findOne({ email });
          if (!user) return res.status(400).json({ msg: 'Invalid credentials' });
 
-         const isMatch
-
- = await bcrypt.compare(password, user.password);
+         const isMatch = await bcrypt.compare(password, user.password);
+         
          if (!isMatch) return res.status(400).json({ msg: 'Invalid credentials' });
 
          const token = jwt.sign({ userId: user._id }, process.env.JWT_SECRET, { expiresIn: '1h' });
@@ -269,6 +268,7 @@ The backend will expose several RESTful APIs to interact with the frontend. Thes
          res.status(500).json({ msg: 'Server error' });
        }
      });
+
      ```
 
 2. **Attendance API:**
