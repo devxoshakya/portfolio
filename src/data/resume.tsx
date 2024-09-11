@@ -162,35 +162,51 @@ export const DATA = {
 
     },
     {
+      title: "Presence",
+      href: "https://github.com/devxoshakya/presence",
+      dates: "August 2024 - September 2024",
+      active: true,
+      description: "A python script to sort files in a directory based on their extensions.",
+      technologies: [
+        "Python"
+      ],
+      links : [
+        {
+          type: "Github",
+          href: "https://github.com/devxoshakya/custom-sort",
+          icon: <Icons.github className="size-3" />,
+        }
+      ],
+      image: "/custom-sort.png",
+      video: ""
+
+    },
+    {
       title: "MIET Results",
       href: "https://miet-results.devxoshakya.xyz",
       dates: "June 2024 - July 2024",
       active: true,
-      description: "A web scraper to get AKTU University results of all students of Meerut Institute of Engineering and Technology.",
+      description: "A geolocation based attendace tracking system for on-the-go workforces.",
       technologies: [
+        "Next.js",
         "React",
-        "Javascript",
-        "Node.js",
-        "Express",
         "Tailwind",
-        "AWS",
-        "Cheerio",
-        "Postman"
+        "MongoDB",
       ],
       links : [
         {
           type: "Website",
-          href: "https://miet-results.devxoshakya.xyz",
+          href: "https://presence.devxoshakya.xyz",
           icon: <Icons.globe className="size-3" />,
         },
         {
           type: "Github",
-          href: "https://github.com/devxoshakya/miet-results",
+          href: "https://github.com/devxoshakya/presence",
           icon: <Icons.github className="size-3" />,
         }
       ],
       image: "",
-      video: "https://github.com/devxoshakya/portfolio/raw/main/public/videos/miet-result.mp4"
+      video: "https://github.com/devxoshakya/portfolio/raw/main/public/videos/presence.mp4"
 
     },
     {
@@ -221,26 +237,6 @@ export const DATA = {
       ],
       image: "",
       video: "https://github.com/devxoshakya/portfolio/raw/main/public/videos/watcher.mp4"
-
-    },
-    {
-      title: "Custom Sort",
-      href: "https://github.com/devxoshakya/custom-sort",
-      dates: "Feburary 2024",
-      active: true,
-      description: "A python script to sort files in a directory based on their extensions.",
-      technologies: [
-        "Python"
-      ],
-      links : [
-        {
-          type: "Github",
-          href: "https://github.com/devxoshakya/custom-sort",
-          icon: <Icons.github className="size-3" />,
-        }
-      ],
-      image: "/custom-sort.png",
-      video: ""
 
     },
   ],
